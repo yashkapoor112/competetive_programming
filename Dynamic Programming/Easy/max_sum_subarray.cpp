@@ -13,7 +13,7 @@ using namespace std;
 
 int max_subarray(vector<int> &nums)
 {
-	int n = nums.size();
+    int n = nums.size();
     vector<int> dp(n+1,0);
 
     int fin_max = INT_MIN;
@@ -32,24 +32,24 @@ int max_subarray(vector<int> &nums)
 
 int main()
 {
-	#ifndef ONLINE_JUDGE
+    #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-	#endif
+    #endif
 
-	int t;
-	cin >> t;
-	while(t--)
-	{
-		int n;
-		cin >> n;
-		vector<int> nums(n,0);
-		int value;
-		for (int i = 0; i < n; ++i)
-		{
-			cin >> value;
-			nums.pb(value);
-		}
-		cout << max_subarray(nums) << endl;
-	}
+    int t;
+    cin >> t;
+    while(t--)
+    {
+        int n;
+        cin >> n;
+        vector<int> nums(n,0);
+        int value;
+        for (int i = 0; i < n; ++i)
+        {
+            cin >> value;
+            nums.pb(value);
+        }
+        cout << max_subarray(nums) << endl;
+    }
 }
