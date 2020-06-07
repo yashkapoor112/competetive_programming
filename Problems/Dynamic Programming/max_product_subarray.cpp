@@ -1,6 +1,6 @@
 /*
 Source code by Yash Kapoor
-Problem Statement - 
+Problem Statement - Find the subarray with maximum product
 Problem Link - 
 */
 #include<bits/stdc++.h>
