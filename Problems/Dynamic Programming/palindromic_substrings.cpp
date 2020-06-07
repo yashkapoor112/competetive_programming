@@ -2,8 +2,8 @@
 Source code by Yash Kapoor
 
 Codeforces  	yk112
-Leetcode  		yk112
-Codechef 	 	yashkapoor112
+Leetcode        yk112
+Codechef        yashkapoor112
 
 Problem Statement - Number of Palindromic Substrings
 Problem Link - https://leetcode.com/problems/palindromic-substrings/
