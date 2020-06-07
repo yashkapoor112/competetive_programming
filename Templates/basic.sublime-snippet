@@ -1,5 +1,16 @@
 <snippet>
 	<content><![CDATA[
+/*
+Source code by Yash Kapoor
+
+Codeforces  	yk112
+Leetcode  		yk112
+Codechef 	 	yashkapoor112
+
+Problem Statement - 
+Problem Link - 
+
+*/
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
@@ -19,6 +30,6 @@ int main()
 	}
 }
 ]]></content>
-	<tabTrigger> #include </tabTrigger>
+	<tabTrigger> baincl </tabTrigger>
 	<scope>source.c++</scope>
 </snippet>

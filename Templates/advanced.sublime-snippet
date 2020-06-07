@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+/*
+Source code by Yash Kapoor
+
+Codeforces  	yk112
+Leetcode  		yk112
+Codechef 	 	yashkapoor112
+
+Problem Statement - 
+Problem Link - 
+
+*/
+#include<bits/stdc++.h>
+
+#define all(x) x.begin(),x.end()
+#define rep(i,k,n) for (int i = k; i < n; ++i) 
+#define repr(i,k,n) for (int i = n; i>=k; --i)
+#define repll(i,k,n) for (ll i = k; i < n; ++i) 
+#define repllr(i,k,n) for (ll i = n; i >= k; --i) 
+#define pb push_back
+#define mp make_pair
+#define gcd __gcd
+#define F first
+#define S second
+#define fastio ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+#define ll long long
+#define ull unsigned long long
+
+using namespace std;
+
+int main()
+{
+	#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+	#endif
+
+	$1
+}
+]]></content>
+	<tabTrigger> adincl </tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
