@@ -12,6 +12,8 @@ of the other envelope.
 
 Problem Link - https://leetcode.com/problems/russian-doll-envelopes/
 
+Modified LIS is better
+
 */
 class Solution {
 public:
