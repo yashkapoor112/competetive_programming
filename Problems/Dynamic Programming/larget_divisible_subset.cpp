@@ -9,6 +9,8 @@ Problem Statement -
 
 Problem Link - https://leetcode.com/problems/largest-divisible-subset/
 
+Similar to LIS(with sorting)
+Note - Sorting works as we need a subset(subsequence) ans not subarray.
 */
 
 class Solution {
