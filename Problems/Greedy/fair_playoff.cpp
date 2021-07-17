@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 /*
 Source code by Yash Kapoor
 
@@ -8,13 +6,13 @@ Leetcode		yk112
 Codechef		yashkapoor112
 
 Problem Statement - 
-Problem Link - 
+Problem Link - https://codeforces.com/problemset/problem/1535/A
 
 */
 #include<bits/stdc++.h>
 
 #define all(x) x.begin(),x.end()
-#define DEBUG(x) cout << '>' << #x << ': ' << x << endl;
+#define DEBUG(x) cout << ">" << #x << ": " << x << endl;
 #define pii pair<int, int>
 #define pb push_back
 #define mp make_pair
@@ -35,16 +33,38 @@ Problem Link -
 
 using namespace std;
 
-int main()
+int optimise_l1 main()
 {
+	fastio
 	#ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 	#endif
 
-	$1
+	rint t;
+	cin >> t;
+	vector<int> arr(4);
+	
+	for (rint i = 0; i < t; ++i)
+	{
+		rint first_max = INT_MIN, second_max = INT_MIN;
+		for (rint i = 0; i < 4; ++i)
+		{
+			cin >> arr[i];	
+			if(arr[i] > first_max){
+				second_max = first_max;
+				first_max = arr[i];
+			}
+			else if (arr[i] > second_max)
+				second_max = arr[i];
+		}
+		if((arr[0] == second_max && arr[1] == first_max) ||
+			(arr[1] == second_max && arr[0] == first_max) ||
+			(arr[2] == second_max && arr[3] == first_max) ||
+			(arr[3] == second_max && arr[2] == first_max))
+			cout << "NO" << endl;
+		else
+			cout << "YES" << endl;
+	}
 }
-]]></content>
-	<tabTrigger> adincl </tabTrigger>
-	<scope>source.c++</scope>
-</snippet>
+	
